@@ -30,3 +30,39 @@ $ clip < ~/.ssh/id_ed25519.pub             para que funcione este comando es el 
 $ cat ~/.ssh/id_ed25519.pub | clip.exe     este comando va a copear la llave ssh en el portapales para copearla en github
 
 $ ssh -T git@github.com                    este comando es para revisar si la conexion con github y la cuenta del pc esta configurada correctamente
+
+
+
+
+comando Add
+
+git add 
+
+git add index.js        agregar los cambios de un archivo especifico
+
+git add *.js            agregar los cambios de archivos con una terminacion 
+
+git add src/component-*  agregar los cambios de archivos que segan un patron 
+
+git add .              agregar los cambios de todos los archivos bajo el directorio actual
+
+git add -A             agrega todos los archivos con cambios en el proyecto hace lo mismo que el add . pero en la carpeta o directorio actual no en todo el proyecto 
+
+git add -u             agregar todos los archivos modificados o eliminados 
+
+git reset              devuelve cambios en archivos a la zona de trabajo
+
+
+comando Commit
+
+git commit 
+
+     al insertar el comando git commit se abrira la consola vim y estos son los pasos para salir de la consola 
+
+     Presiona la tecla Esc (para asegurarte de no estar en modo edición).
+     Escribe :wq (los dos puntos son necesarios; significa write & quit).
+     Presiona Enter.
+
+
+
+
