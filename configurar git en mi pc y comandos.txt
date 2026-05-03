@@ -1,0 +1,32 @@
+configurar git en mi pc y comandos basicos 
+
+comandos para configurar las credenciales del repositorio personal o corporativo
+
+$ git config --global user.name "Jonathan"
+
+$ git config --global user.email "queleimporta545@gmail.com"
+
+$ git config --list
+
+$ git config user.name
+Jonathan
+
+$ git config user.email
+queleimporta545@gmail.com
+
+
+comandos para configurar las llaves ssh con github 
+
+$ ssh-keygen -t ed25519 -C "queleimporta545@gmail.com"
+
+$ eval "$(ssh-agent -s)"       para que funcione este comando ejecute estos comandos en powershell como administrador
+
+                                Set-Service -Name ssh-agent -StartupType Manual
+                                Start-Service ssh-agent
+                                Get-Service ssh-agent
+
+$ clip < ~/.ssh/id_ed25519.pub             para que funcione este comando es el de revisar la ruta ~/.ssh/id_ed25519.pub
+
+$ cat ~/.ssh/id_ed25519.pub | clip.exe     este comando va a copear la llave ssh en el portapales para copearla en github
+
+$ ssh -T git@github.com                    este comando es para revisar si la conexion con github y la cuenta del pc esta configurada correctamente
