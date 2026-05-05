@@ -63,6 +63,22 @@ git commit
      Escribe :wq (los dos puntos son necesarios; significa write & quit).
      Presiona Enter.
 
+git commit -m "mensaje de ejemplo"    esta es la manera para que no se ejecute o se abra la consola vim de git sino que uno solo ingresa el mansaje y ya 
+
+git log              es un comando para revisar los log o los commits realizados atravez del tiempo
+
+
+
+comando para respositorio remoto 
+
+git push      funciona para enviar los cambios del repositorio local a el repositorio remoto en este caso github 
+
+git pull      funciona para actualizar del repositorio remoto a el repositorio local con sus respectivos cambios  
+
+git branch    funciona para revisar en que rama se esta situada o para realizar el cambio a la rama necesaria 
+
+git push -u origin main     este comando sirve para subir el contenido del repositorio local al repositorio remoto 
+
 
 
 
