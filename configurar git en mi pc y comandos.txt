@@ -94,7 +94,6 @@ git branch -d (nombre de la rama)           es para eliminar una rama y para usa
 
 Desacer cambios
 
-
 git checkout (nombre del archivo)           este comando se utiliza para descartar los cambios de los cambios hechos en el archivo seleccionado
 
 git checkout .                              este comando se utiliza para descartar los cambios pero de todo el proyecto hechos la ultima vez 
@@ -102,6 +101,5 @@ git checkout .                              este comando se utiliza para descart
 
 unir ramas
 
-
-git merge
+git merge (nombre de la rama que quiere unir)
 
