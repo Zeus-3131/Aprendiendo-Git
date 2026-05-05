@@ -80,5 +80,28 @@ git branch    funciona para revisar en que rama se esta situada o para realizar 
 git push -u origin main     este comando sirve para subir el contenido del repositorio local al repositorio remoto 
 
 
+ramas
 
+git switch -C (nombre de la rama)           es para crear una nueva rama 
+
+git switch                                  se utiliza para cambiar de rama 
+
+git branch                                  es para revisar en que rama se encuentra 
+
+git branch -d (nombre de la rama)           es para eliminar una rama y para usarlo se debe estar en una rama diferente a la que desea eliminar
+
+
+
+Desacer cambios
+
+
+git checkout (nombre del archivo)           este comando se utiliza para descartar los cambios de los cambios hechos en el archivo seleccionado
+
+git checkout .                              este comando se utiliza para descartar los cambios pero de todo el proyecto hechos la ultima vez 
+
+
+unir ramas
+
+
+git merge
 
