@@ -67,6 +67,9 @@ git commit -m "mensaje de ejemplo"    esta es la manera para que no se ejecute o
 
 git log              es un comando para revisar los log o los commits realizados atravez del tiempo
 
+git log --oneline    es un commando para revisar los log o commits pero de una forma mas ordenada
+
+
 
 
 comando para respositorio remoto 
@@ -101,5 +104,19 @@ git checkout .                              este comando se utiliza para descart
 
 unir ramas
 
-git merge (nombre de la rama que quiere unir)
+<<<<<<< HEAD
+git merge (nombre de la rama que quiere unir)   sirve para unir ramas 
 
+=======
+git merge (nombre de la rama que quiere unir)
+>>>>>>> 6e2c3321cf9355fc05b9f67547f5783426a7dfd4
+
+modificar commits 
+
+git commit --amend                       Edita el último commit (cambia mensaje o agrega archivos)
+
+git show                                 Muestra los cambios detallados del ultimo commit 
+
+git revert [hash]:                       Crea un nuevo commit que deshace los cambios del commit especificado. Se abrirá el editor para que confirmes el mensaje del commit.
+
+git cherry-pick [hash]:                  Trae un solo commit específico de cualquier rama a la tuya.
