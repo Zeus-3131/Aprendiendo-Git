@@ -120,3 +120,14 @@ git show                                 Muestra los cambios detallados del ulti
 git revert [hash]:                       Crea un nuevo commit que deshace los cambios del commit especificado. Se abrirá el editor para que confirmes el mensaje del commit.
 
 git cherry-pick [hash]:                  Trae un solo commit específico de cualquier rama a la tuya.
+
+
+
+# 1. Actualizar main desde el remoto
+git pull origin main
+
+# 2. Cambiar a tu rama de trabajo
+git switch nombre-de-tu-rama
+
+# 3. Fusionar los cambios actualizados de main en tu rama
+git merge main
