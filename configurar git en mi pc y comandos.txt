@@ -104,8 +104,12 @@ git checkout .                              este comando se utiliza para descart
 
 unir ramas
 
+<<<<<<< HEAD
 git merge (nombre de la rama que quiere unir)   sirve para unir ramas 
 
+=======
+git merge (nombre de la rama que quiere unir)
+>>>>>>> 6e2c3321cf9355fc05b9f67547f5783426a7dfd4
 
 modificar commits 
 
